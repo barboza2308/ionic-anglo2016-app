@@ -3,7 +3,9 @@ import { IonicApp, IonicModule } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
-import { HomePage } from '../pages/home/home';
+import { NotasPage } from '../pages/notas/notas';
+import { CalendarioProvasPage } from '../pages/calendario-provas/calendario-provas';
+import { DisciplinasPage } from '../pages/disciplinas/disciplinas';
 import { TabsPage } from '../pages/tabs/tabs';
 
 @NgModule({
@@ -11,7 +13,9 @@ import { TabsPage } from '../pages/tabs/tabs';
     MyApp,
     AboutPage,
     ContactPage,
-    HomePage,
+    DisciplinasPage,
+    NotasPage,
+    CalendarioProvasPage,
     TabsPage
   ],
   imports: [
@@ -22,7 +26,9 @@ import { TabsPage } from '../pages/tabs/tabs';
     MyApp,
     AboutPage,
     ContactPage,
-    HomePage,
+    DisciplinasPage,
+    NotasPage,
+    CalendarioProvasPage,
     TabsPage
   ],
   providers: []

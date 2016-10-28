@@ -1,0 +1,31 @@
+<!--
+  Generated template for the CalendarioProvas page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Provas</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-segment [(ngModel)]="notas">
+    <ion-segment-button value="primeiroSemestre">
+      1 Bimestre
+    </ion-segment-button>
+    <ion-segment-button value="segundoSemestre">
+      2 Bimestre
+    </ion-segment-button>
+    <ion-segment-button value="segundaChamada">
+      2 Chamada
+    </ion-segment-button>
+    <ion-segment-button value="exame">
+      Exame
+    </ion-segment-button>
+  </ion-segment>
+</ion-content>

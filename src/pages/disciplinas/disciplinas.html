@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Disciplinas</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h2>Selecione o Curso</h2>
+  <ion-list>
+  <ion-item>
+    <ion-label>Curso</ion-label>
+    <ion-select [(ngModel)]="curso">
+      <ion-option value="adm">Administração</ion-option>
+      <ion-option value="cc">Ciências da Computação</ion-option>
+      <ion-option value="far">Farmácia</ion-option>
+      <ion-option value="vet">Medicina Veterinária</ion-option>
+    </ion-select>
+  </ion-item>
+</ion-list>
+</ion-content>
